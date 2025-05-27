@@ -18,14 +18,31 @@ dependencies:
   get: ^4.7.2
   get_storage: ^2.0.3
   flutter_native_splash: ^2.4.6
+  keyboard_avoider: ^0.2.0
+
  
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_launcher_icons: ^0.13.1
   flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  image_path: "assets/img/logo/logo.png"
+  android: true
+  ios: true
 
 flutter:
   uses-material-design: true
   assets: 
     - assets/img/
+    - assets/img/ilustrasi/starter/
+    - assets/img/shape/
+    - assets/img/icon/menu/
+    - assets/img/text/
+    - assets/img/text/point.png
+    - assets/img/profile/
+    - assets/img/icon/e-learning/
+    - assets/img/icon/navbar/
+    - assets/img/ilustrasi/not-found/
+    - assets/img/icon/kisi-kisi/
